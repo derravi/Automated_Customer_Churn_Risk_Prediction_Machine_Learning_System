@@ -8,7 +8,6 @@ class ChurnInput(BaseModel):
 
     SeniorCitizen: Annotated[Literal["yes", "no"], Field(..., description="Is customer a senior citizen?", examples=["no"])]
 
-
     Partner: Annotated[Literal["yes", "no"], Field(..., description="Does customer have a partner?", examples=["yes"])]
     
     Dependents: Annotated[Literal["yes", "no"], Field(..., description="Does customer have dependents?", examples=["no"])]
