@@ -2,7 +2,7 @@ Project Structure
 
 # File Tree: ChurnSense_An_Automated_Machine_Learning_System_for_Customer_Churn_Risk_Prediction
 
-```
+This is the Full Project Structure 
 ├── 📁 Graphs_Insights
 │   ├── 🖼️ Churn_Distribution.png
 │   ├── 🖼️ Monthly_Charges_Distribution.png

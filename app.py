@@ -5,7 +5,10 @@ import pandas as pd
 import numpy as np
 from fastapi.responses import JSONResponse
 
-app = FastAPI(title="Customer Churn Prediction")
+try:
+    app = FastAPI(title="Customer Churn Prediction")
+except Exception as e:
+    print(f"Error is {e}")
 
 try:
     #load Pikle Model First
